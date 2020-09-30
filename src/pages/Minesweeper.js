@@ -5,6 +5,7 @@ export default function Minesweeper () {
     return (
         <>
         <h1 className="minesweeper"> Minesweeper</h1>
+        
         </>
 
     )

@@ -6,6 +6,7 @@ import Projects from './pages/Projects.js'
 import Home from './pages/Home.js'
 import About from './pages/About.js'
 import Minesweeper from './pages/Minesweeper.js'
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         
       
       </Switch> 
+      <Footer/>
     </Router>
   );
 }
