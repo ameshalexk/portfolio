@@ -1,15 +1,31 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import Dropdown from './Dropdown'
+// import Button from './Button.js'
+
 
 function Navbar() {
     const [click, setClick] = useState(false);
+    
     const [dropdown, setDropdown] = useState(false);
-
+    
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+    
+    // const [button, setButton] = useState(true);
+    // const showButton = () => {
+    //     if(window.innerWidth <= 960) {
+    //         setButton(false);
+    //     } else {
+    //         setButton(true);
+    //     }
+    // };
 
+    // useEffect(() => {
+    //     showButton();
+    // },[]);
+    // window.addEventListener('resize',showButton);
     const onMouseEnter = () => {
         if(window.innerWidth < 960) {
             setDropdown(false);
@@ -28,6 +44,7 @@ function Navbar() {
     return (
         <>
         <nav className='navbar'>
+            {/* <div className='navbar-container'> */}
             <Link to='/' className='navbar-logo'>
             HOME <i className='fab fa-firstdraft'/>
             </Link>
@@ -55,6 +72,8 @@ function Navbar() {
                     </Link>
                 </li>
             </ul>
+            {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
+            {/* </div> */}
         </nav>
         </>
     );
