@@ -65,8 +65,8 @@ function HeroSection() {
     <video id="v0" tabIndex="0" autobuffer="autobuffer" preload="preload">
         <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="videos/fingers.mp4"></source>
     </video>
-    <ScriptTag type="text/javascript" src="videos/sticky2.js" />
-    <ScriptTag type="text/javascript" src="videos/sticky.js" />
+    <ScriptTag type="text/javascript" defer={true} src="videos/sticky2.js" />
+    {/* <ScriptTag type="text/javascript" src="videos/sticky.js" /> */}
 
         
     </div>

@@ -1,9 +1,9 @@
-        enterView({
-            selector: 'section',
-            enter: function(el) {
-                el.classList.add('entered');
-            }
-        })
+        // enterView({
+        //     selector: 'section',
+        //     enter: function(el) {
+        //         el.classList.add('entered');
+        //     }
+        // })
     
         var frameNumber = 0, // start video at frame 0
         // lower numbers = faster playback
