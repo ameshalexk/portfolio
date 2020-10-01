@@ -10,6 +10,7 @@ function HeroSection() {
         <div class="content">
             <h1>Some projects I worked on during the last 3 months </h1>
             <p>Please scroll down</p>
+
         </div>
     </section>
 
@@ -42,12 +43,17 @@ function HeroSection() {
     </section>
     <section class="container">
         <div class="content">
+        <h1>Some other projects</h1>
+
+
             <button>Scroll to Top</button>
+
         </div>
+
     </section>
+    <video id="chartjs" src='/videos/2.mp4' autoPlay loop muted />
 
     <div id="set-height"></div>
-
     <video id="v0" tabindex="0" autobuffer preload>
         <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="videos/fingers.mp4"></source>
     </video>

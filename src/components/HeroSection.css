@@ -93,3 +93,10 @@ section:nth-of-type(5) {
     opacity: 1;
   }
 }
+
+
+#chartjs {
+  width: 650px;
+  height: 650px;
+  margin-left: 50px;
+}
