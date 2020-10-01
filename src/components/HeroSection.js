@@ -18,7 +18,11 @@ function HeroSection() {
         <div className="content">
             <div className="frame">
             <h1>Project 1</h1>
-            <p>Minesweeper</p>
+            <h2>
+                <a href="https://ameshalexk.github.io/minesweeper/?reload" target="_blank" rel="noopener noreferrer">
+                    Minesweeper
+                </a>
+            </h2>
             <video id="chartjs" src='/videos/minesweeper.mp4' autoPlay loop muted />
             </div>
         </div>
@@ -27,7 +31,11 @@ function HeroSection() {
         <div className="content">
             <div className="frame">
             <h1>Project 2</h1>
-            <p>T-Apparel - A T-shirt website</p>
+            <h2>
+                <a href="https://tapparel.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                T-Apparel - A T-shirt website
+                </a>
+                </h2>
             <video id="chartjs" src='/videos/tapparel.mp4' autoPlay loop muted />
             </div>
         </div>
@@ -36,7 +44,11 @@ function HeroSection() {
         <div className="content">   
             <div className="frame">
             <h1>Project 3</h1>
-            <p>Coinstance - A Cryptocurrency trading platform</p>
+            <h2>
+                <a href="https://coinstanceapp.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                Coinstance - A Cryptocurrency trading platform
+                </a>
+                </h2>
             <video id="chartjs" src='/videos/coinstance.mp4' autoPlay loop muted />
             </div>
         </div>
@@ -45,7 +57,11 @@ function HeroSection() {
         <div className="content">
             <div className="frame">
             <h1>Project 4</h1>
-            <p>CovidMapper - A map that shows realtime covid stats.</p>
+            <h2>
+                <a href="https://covidmapper.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                CovidMapper - A map that shows realtime covid stats.
+                </a>
+                </h2>
             <video id="chartjs" src='/videos/covidmapper.mp4' autoPlay loop muted />
             </div>
         </div>
