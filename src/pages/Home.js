@@ -8,8 +8,10 @@ export default function Home () {
         <div className="mainpage"> 
             <h1>Amesh Alex Kuruvilla</h1>
             <br></br>
-            
-            <h4> 
+            <h2>SKILLS</h2>
+
+            <div> 
+            <hr></hr>
                 <ul className="skillscontainer">
                     <img className="skillsitem" src="/images/html-5.svg" alt="triangle with all three sides equal" height="87" width="100" />
                     {/* <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */}
@@ -38,42 +40,90 @@ export default function Home () {
                     <img className="skillsitem" src="/images/database.svg" alt="triangle with all three sides equal" height="87" width="100" />
                     {/* <div>Icons made by <a href="https://www.flaticon.com/authors/phatplus" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */}
                 </ul>
-            </h4>
-            <div>
-                <h4>EXPERIENCE</h4>
-                <h5>General Assembly -  Software Engineering Fellowship</h5>
+            </div>
+            <div className="maintext">
+                <h2>EXPERIENCE</h2><hr></hr>
+                <h3>General Assembly -  Software Engineering Fellowship</h3>
                 <h5>JUL 2020 - OCT 2020</h5>
                 <br></br>
                 <br></br>
                 <div>
-                    <h6>
+                    <li>
                         Fellowship for 12 weeks which included designing, developing, testing, debugging and troubleshooting Full Stack Apps / projects in an agile environment. 
-                    </h6>
+                    </li>
                     <br></br>
-                    <h6>
+                    <li>
                         Created Minesweeper Game using JQUERY.
-                    </h6>
+                    </li>
                     <br></br>
-                    <h6>
+                    <li>
                         Created a cryptocurrency trading app with React.
-                    </h6>
+                    </li>
                     <br></br>
                 </div>
                 <br></br><br></br><br></br>
-                <h5>SITA, India — Team Leader</h5>
+                <hr></hr>
+                <h3>SITA, India — Team Leader</h3>
                 <h5>AUG 2016 - AUG 2019</h5>
                 <br></br>
                 <br></br>
                 <div>
-                    <h6>
+                    <li>
                     Testing In-house custom software for Business Operations and improved code logic and User Interface. 
-                    </h6>
+                    </li>
                     <br></br>
-                    <h6>
+                    <li>
                     Strengthened relationships with 5  strategic Travel Websites based in Germany with Product and Content management.
-                    </h6>
+                    </li>
                     <br></br>
                     
+                </div>
+                
+            </div>
+
+            <div className="maintext">
+                <h2>EDUCATION</h2><hr></hr>
+                <h3>General Assembly -  Software Engineering Immersive</h3>
+                <h5>JUL 2020 - OCT 2020</h5>
+                <br></br>
+                <br></br>
+                <div>
+                    <li>
+                        Fellowship for 12 weeks which included designing, developing, testing, debugging and troubleshooting Full Stack Apps / projects in an agile environment. 
+                    </li>
+                    <br></br>
+                    <li>
+                        Created Minesweeper Game using JQUERY.
+                    </li>
+                    <br></br>
+                    <li>
+                        Created a cryptocurrency trading app with React.
+                    </li>
+                    <br></br>
+                </div>
+                <br></br><br></br><br></br>
+                <hr></hr>
+                <h3>IITTM, India — MBA - International Business</h3>
+                <h5>AUG 2012 - AUG 2014</h5>
+                <br></br>
+                <br></br>
+                <div>
+                    <li>
+                    MBA in International Business 
+                    </li>
+                    <br></br>                   
+                </div>
+                
+                <hr></hr>
+                <h3>GGSIPU, India — BBA</h3>
+                <h5>AUG 2008 - AUG 2011</h5>
+                <br></br>
+                <br></br>
+                <div>
+                    <li>
+                    MBA in International Business 
+                    </li>
+                    <br></br>                   
                 </div>
             </div>
 

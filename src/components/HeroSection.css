@@ -30,7 +30,7 @@ section {
   padding-left: 80px;
 }
 
-.topframe h1 {
+.topframe  h1 {
   font-size: 3em;
   background: #fff;
   display: inline-block;
@@ -38,7 +38,15 @@ section {
   border-radius: 5px;
   margin: 0;
 }
-p { font-size: 1.5em; }
+.frame  h1 {
+  font-size: 3em;
+  background: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.topframe, .frame p { font-size: 1.5em; }
 
 section:nth-of-type(1) {
   height: 1200px;

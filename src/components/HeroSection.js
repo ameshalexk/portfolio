@@ -9,7 +9,7 @@ function HeroSection() {
       <section className="container">
         <div className="content">
          <div className="topframe">
-            <h1>Projects I worked on during my 3 month bootcamp </h1>
+            <h1>My Projects</h1>
             <p>Please scroll down</p>
             </div>
         </div>
