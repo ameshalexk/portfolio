@@ -8,7 +8,7 @@ function HeroSection() {
     <div className='hero-container'>
       <section className="container">
         <div className="content">
-            <h1>Some projects I worked on during the last 3 months </h1>
+            <h1>Projects I worked on during my 3 month bootcamp </h1>
             <p>Please scroll down</p>
         </div>
     </section>
