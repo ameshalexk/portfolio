@@ -83,3 +83,21 @@
     color: #fff;
     font-size: 100px;
   }
+
+  .mainpage {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+
+
+  .skillscontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
+    padding: 50px;
+
+    
+  }

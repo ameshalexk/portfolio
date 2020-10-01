@@ -30,7 +30,7 @@ section {
   padding-left: 80px;
 }
 
-h1 {
+.topframe h1 {
   font-size: 3em;
   background: #fff;
   display: inline-block;
@@ -133,7 +133,7 @@ section:nth-of-type(5) {
 
 @media screen and (max-width: 960px) {
 
-  h1 {
+  .topframe h1 {
     font-size: 1.2em;
     background: #fff;
     display: inline-block;
