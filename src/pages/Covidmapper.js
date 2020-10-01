@@ -1,10 +1,10 @@
 import React from 'react'
 import '../App.css'
 
-export default function Minesweeper () {
+export default function Covidmapper () {
     return (
         <>
-        <h1 className="minesweeper"> Minesweeper</h1>
+        <h1 className="covidmapper"> CovidMapper</h1>
         
         </>
 

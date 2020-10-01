@@ -3,18 +3,20 @@ import { Link } from 'react-router-dom'
 import './Navbar.css'
 import Dropdown from './Dropdown'
 
+
 function Navbar() {
     const [click, setClick] = useState(false);
+    
     const [dropdown, setDropdown] = useState(false);
-
+    
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-
+    
     const onMouseEnter = () => {
         if(window.innerWidth < 960) {
             setDropdown(false);
         } else {
-            setDropdown(true);
+            setDropdown(false);
         }
     };
     const onMouseLeave = () => {
@@ -29,7 +31,7 @@ function Navbar() {
         <>
         <nav className='navbar'>
             <Link to='/' className='navbar-logo'>
-            HOME <i className='fab fa-firstdraft'/>
+            AAK <i className='fab fa fa-code	'/>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -45,7 +47,7 @@ function Navbar() {
                     onMouseLeave={onMouseLeave}
                     >
                     <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
-                        Projects <i className='fas fa-caret-down'/>
+                        Projects 
                     </Link>
                     {dropdown && <Dropdown/>}
                 </li>
