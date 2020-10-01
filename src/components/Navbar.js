@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import Dropdown from './Dropdown'
@@ -16,7 +16,7 @@ function Navbar() {
         if(window.innerWidth < 960) {
             setDropdown(false);
         } else {
-            setDropdown(true);
+            setDropdown(false);
         }
     };
     const onMouseLeave = () => {
@@ -47,7 +47,7 @@ function Navbar() {
                     onMouseLeave={onMouseLeave}
                     >
                     <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
-                        Projects <i className='fas fa-caret-down'/>
+                        Projects 
                     </Link>
                     {dropdown && <Dropdown/>}
                 </li>

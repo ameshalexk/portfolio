@@ -6,18 +6,19 @@
   }
   
   .home,
-  .services,
-  .products,
+  .tapparel,
   .about,
-  .sign-up,
+  .coinstance,
   .minesweeper,
-  .consulting,
+  .covidmapper,
   .projects {
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+    /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+
   }
   
   .home {
