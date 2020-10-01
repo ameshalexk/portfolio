@@ -1,12 +1,10 @@
 import React from 'react'
 import '../App.css'
 
-export default function Home () {
+export default function Covidmapper () {
     return (
         <>
-        
-        <h1 className="projects"> Home</h1>
-        
+        <h1 className="covidmapper"> CovidMapper</h1>
         
         </>
 
