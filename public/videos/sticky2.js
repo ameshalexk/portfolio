@@ -1,13 +1,13 @@
-        // enterView({
-        //     selector: 'section',
-        //     enter: function(el) {
-        //         el.classList.add('entered');
-        //     }
-        // })
+        enterView({
+            selector: 'section',
+            enter: function(el) {
+                el.classList.add('entered');
+            }
+        })
     
         var frameNumber = 0, // start video at frame 0
         // lower numbers = faster playback
-        playbackConst = 1000, 
+        playbackConst = 1250, 
         // get page height from video duration
         setHeight = document.getElementById("set-height"), 
         // select video element         
@@ -16,7 +16,8 @@
 
     // dynamically set the page height according to video length
     vid.addEventListener('loadedmetadata', function() {
-    setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
+    setHeight.style.height = Math.floor(0.05) * playbackConst + "px";
+    console.log(setHeight.style.height);
     });
 
 
