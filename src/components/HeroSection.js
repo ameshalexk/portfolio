@@ -8,8 +8,10 @@ function HeroSection() {
     <div className='hero-container'>
       <section className="container">
         <div className="content">
+         <div className="topframe">
             <h1>Projects I worked on during my 3 month bootcamp </h1>
             <p>Please scroll down</p>
+            </div>
         </div>
     </section>
     <section className="container">
@@ -69,7 +71,6 @@ function HeroSection() {
         
     </div>
     
-
     </div>
   );
 }

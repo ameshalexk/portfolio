@@ -8,7 +8,7 @@ body {
 
 #v0 {
   position: fixed;
-  bottom: 0;
+  bottom: 128px;
   right: 0;
   width: 50%;
 }
@@ -122,3 +122,39 @@ section:nth-of-type(5) {
 /* .hero-container {
   height: 50%;
 } */
+
+.footer {
+  display: inline-block;
+}
+
+@media screen and (max-width: 960px) {
+
+  h1 {
+    font-size: 1.2em;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0;
+  }
+
+  #chartjs {
+    width: 350px;
+    height: 350px;
+    /* margin-left: 50px; */
+  }
+
+  .content {
+    position: sticky;
+    position: -webkit-sticky;
+    width: 100%;
+    top: 33.3%;
+    padding-left: 10px;
+  }
+
+  .topframe {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+}

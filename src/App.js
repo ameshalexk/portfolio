@@ -9,6 +9,8 @@ import Minesweeper from './pages/Minesweeper.js'
 import Tapparel from './pages/Tapparel.js'
 import Coinstance from './pages/Coinstance.js'
 import Covidmapper from './pages/Covidmapper.js'
+import Footer from './components/Footer.js'
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         
       
       </Switch> 
+      <Footer/>
     </Router>
   );
 }
