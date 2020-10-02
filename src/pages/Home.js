@@ -8,7 +8,7 @@ export default function Home () {
         <div className="mainpage"> 
             <h1>Amesh Alex Kuruvilla</h1>
             <br></br>
-            <h2>SKILLS</h2>
+            <h2>Some Skills I immersed myself into : </h2>
 
             <div> 
             <hr></hr>
@@ -42,7 +42,7 @@ export default function Home () {
                 </ul>
             </div>
             <div className="maintext">
-                <h2>EXPERIENCE</h2><hr></hr>
+                <h2>Professional Experience : </h2><hr></hr>
                 <h3>General Assembly -  Software Engineering Fellowship</h3>
                 <h5>JUL 2020 - OCT 2020</h5>
                 <br></br>
@@ -80,9 +80,9 @@ export default function Home () {
                 </div>
                 
             </div>
-
+            <hr></hr><hr></hr>
             <div className="maintext">
-                <h2>EDUCATION</h2><hr></hr>
+                <h2>Educational Experience : </h2><hr></hr>
                 <h3>General Assembly -  Software Engineering Immersive</h3>
                 <h5>JUL 2020 - OCT 2020</h5>
                 <br></br>
