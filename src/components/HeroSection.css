@@ -1,5 +1,6 @@
 body {
-  background-color: #cedce3;
+  /* background-color: #cedce3; */
+  background-color: #c6d7de;
   font-family: 'Montserrat';
   /* padding: 3em; */
   margin: 0;
@@ -37,7 +38,7 @@ section {
   padding: 10px 15px;
   border-radius: 5px;
   margin: 0;
-  
+
 }
 .frame  h2 {
   font-size: 2em;
@@ -124,7 +125,7 @@ section:nth-of-type(5) {
   justify-content: center;
   align-items: center;
   place-items: center;
-  
+
 
 }
 
@@ -167,8 +168,8 @@ section:nth-of-type(5) {
     justify-content: center;
     align-items: center;
     place-items: center;
-    
-  
+
+
   }
 
   .frame  h2 {
@@ -191,13 +192,13 @@ section:nth-of-type(5) {
     margin-right: 0;
     text-align: center;
   }
-  
+
 }
 
 
 @-moz-document url-prefix(){
   body {
-    background-color: #c9d7de; 
+    background-color: #c9d7de;
   }
   #v0 {
     display: none;
@@ -225,5 +226,5 @@ section:nth-of-type(5) {
     height: 1000px;
   }
 
-  
+
 }
