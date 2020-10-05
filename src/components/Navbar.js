@@ -51,11 +51,11 @@ function Navbar() {
                     </Link>
                     {dropdown && <Dropdown/>}
                 </li>
-                {/* <li className='nav-item'>
+                <li className='nav-item'>
                     <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
                         Contact Me
                     </Link>
-                </li> */}
+                </li>
             </ul>
         </nav>
         </>
