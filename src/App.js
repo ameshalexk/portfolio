@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react'
 import './App.css';
 import NavBar from './components/Navbar.js'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -10,9 +10,17 @@ import Tapparel from './pages/Tapparel.js'
 import Coinstance from './pages/Coinstance.js'
 import Covidmapper from './pages/Covidmapper.js'
 import Footer from './components/Footer.js'
+import ReactGA from 'react-ga';
 
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.initialize('UA-180302457-1');
+    ReactGA.pageview(window.location.pathname + window.location.search)
+    },[]);
+
+
   return (
     <Router>
       <NavBar/>
