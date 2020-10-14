@@ -12,7 +12,7 @@ function HeroSection() {
              
          <img className="mainimage2" src="/images/HatchfulExport-All/logo_transparent.png"></img>
             <h1>My Projects</h1>
-            <p>Please scroll down</p>
+            <p>Please scroll down, to login to any website use login id and password as "amesh".</p>
             </div>
         </div>
     </section>
