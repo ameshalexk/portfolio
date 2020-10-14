@@ -7,7 +7,6 @@
   
   .home,
   .tapparel,
-  .about,
   .coinstance,
   .minesweeper,
   .covidmapper,
@@ -19,6 +18,26 @@
     font-size: 3rem;
 
   }
+  .about {
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    
+  }
+  
+
+
+  iframe {
+    /* width: 50%;
+    height: 100%; */
+    margin: 0 auto;
+    display: block;
+    height: 90vh;
+
+  }
+
   
   .home {
     background-position: center;
@@ -41,6 +60,36 @@
     flex-direction: column;
     place-items: center;
     padding: 10px;
+    
+  }
+  .mainimage {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    /* padding: 20px; */
+    height: 90vh;
+    justify-content:center
+
+  }
+  /* .mainhero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+
+  } */
+  .mainimage2 {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    /* padding: 20px; */
+    /* height: 50vh; */
+    width: 500px;
+    height : 500px;
+    margin: 130px;
+
   }
 
   .skillscontainer {

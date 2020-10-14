@@ -9,6 +9,8 @@ function HeroSection() {
       <section className="container">
         <div className="content">
          <div className="topframe">
+             
+         <img className="mainimage2" src="/images/HatchfulExport-All/logo_transparent.png"></img>
             <h1>My Projects</h1>
             <p>Please scroll down</p>
             </div>

@@ -34,6 +34,15 @@ function Footer() {
             >
               <i className='fab fa-linkedin' />
             </a>
+            <a
+              className='social-icon-link '
+              href='https://medium.com/@ameshalexusa'
+              target='_blank'
+              rel="noopener noreferrer"
+              aria-label='medium'
+            >
+              <i className='fab fa-medium' />
+            </a>
           </div>
         
       </div>

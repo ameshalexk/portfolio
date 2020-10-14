@@ -5,8 +5,11 @@ export default function Home () {
     return (
         <>
         
+            
+            
+            
         <div className="mainpage"> 
-            <h1>Amesh Alex Kuruvilla</h1>
+        <img className="mainimage" src="/images/HatchfulExport-All/logo_transparent.png"></img>
             <br></br>
             <h2>Some Skills I immersed myself into : </h2>
 
