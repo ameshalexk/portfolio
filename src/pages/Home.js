@@ -3,16 +3,11 @@ import '../App.css'
 
 export default function Home () {
     return (
-        <>
-        
-            
-            
-            
+        <>           
         <div className="mainpage"> 
         <img className="mainimage" src="/images/HatchfulExport-All/logo_transparent.png"></img>
             <br></br>
             <h2>Some Skills I immersed myself into : </h2>
-
             <div> 
             <hr></hr>
                 <ul className="skillscontainer">
@@ -79,9 +74,7 @@ export default function Home () {
                     Strengthened relationships with 5  strategic Travel Websites based in Germany with Product and Content management.
                     </li>
                     <br></br>
-                    
                 </div>
-                
             </div>
             <hr></hr><hr></hr>
             <div className="maintext">
@@ -116,7 +109,6 @@ export default function Home () {
                     </li>
                     <br></br>                   
                 </div>
-                
                 <hr></hr>
                 <h3>GGSIPU, India — BBA</h3>
                 <h5>AUG 2008 - AUG 2011</h5>
@@ -129,12 +121,7 @@ export default function Home () {
                     <br></br>                   
                 </div>
             </div>
-
         </div>
-        
-        
         </>
-
     )
-
 }

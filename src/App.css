@@ -124,7 +124,39 @@
       grid-row-gap: 20px;
       padding: 20px;  
     }
-    
-    
+    .mainimage {
+      display: flex;
+      flex-direction: column;
+      place-items: center;
+      /* padding: 20px; */
+      height: 50vh;
+      justify-content:center
+  
+    }
+    .about {
+      /* display: flex; */
+      /* height: 20vh; */
+      /* align-items: center;
+      justify-content: center;
+      font-size: 3rem; */
+      display: flex;
+      flex-direction: column;
+      place-items: center;
+      /* padding: 20px; */
+      height: 40vh;
+      width: auto;
+      font-size: 30px;
+      justify-content:center
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      display: block;
+      height: 90vh;
+  
+    }
+  
   }
   

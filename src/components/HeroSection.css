@@ -31,6 +31,11 @@ section {
   padding-left: 80px;
 }
 
+.herotext {
+  text-align: center;
+  padding: 50px;
+}
+
 .topframe  h1 {
   font-size: 3em;
   background: #fff;
@@ -38,6 +43,7 @@ section {
   padding: 10px 15px;
   border-radius: 5px;
   margin: 0;
+  
 
 }
 .frame  h2 {
@@ -54,6 +60,7 @@ section {
   display: inline-block;
   border-radius: 5px;
   margin: 0;
+  
 }
 
 .topframe, .frame p { font-size: 1.5em; }

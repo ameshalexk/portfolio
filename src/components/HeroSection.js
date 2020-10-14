@@ -11,8 +11,11 @@ function HeroSection() {
          <div className="topframe">
              
          <img className="mainimage2" src="/images/HatchfulExport-All/logo_transparent.png"></img>
+         <div className="herotext">
             <h1>My Projects</h1>
-            <p>Please scroll down, to login to any website use login id and password as "amesh".</p>
+            <p>Please scroll down</p>
+            <p>Use login id and password as "amesh".</p>
+            </div>
             </div>
         </div>
     </section>
